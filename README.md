@@ -26,6 +26,7 @@
 * [Linux links](docs/links.md)
 * [xargs](docs/xargs.md)
 * [Terminating processes. Singals.](docs/kill.md)
+* [Deamons](docs/deamons.md)
 
 
 ## Solving problems
