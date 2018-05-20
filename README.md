@@ -27,6 +27,7 @@
 * [xargs](docs/xargs.md)
 * [Terminating processes. Singals.](docs/kill.md)
 * [Deamons](docs/deamons.md)
+* [uptime](docs/uptime.md)
 
 
 ## Solving problems
