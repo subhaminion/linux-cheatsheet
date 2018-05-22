@@ -28,7 +28,8 @@
 * [Terminating processes. Singals.](docs/kill.md)
 * [Deamons](docs/deamons.md)
 * [uptime](docs/uptime.md)
-
+* [Process States](docs/process-states.md)
+* [Load Averages](docs/load-averages.md)
 
 ## Solving problems
 
