@@ -30,6 +30,7 @@
 * [uptime](docs/uptime.md)
 * [Process States](docs/process-states.md)
 * [Load Averages](docs/load-averages.md)
+* [top](docs/top.md)
 
 ## Solving problems
 
