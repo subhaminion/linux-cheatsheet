@@ -118,6 +118,7 @@ Press either `q` or `Q` key.
 
 `less -p pattern` - This starts less at the first occurrence of the pattern specified.
 
+`less +F` displays new lines as they are appended to the file. Similar to [tail -f](tail.md)(https://www.linux.com/blog/tail-f-vs-less-f). You can stop following the end of the file by pressing `ctrl+c` and resume it by pressing `F`. [This can often be advantageous than the of tail command when watching the logs for example](https://www.linux.com/blog/tail-f-vs-less-f).
 
 ## Rersources used to create this document
 
