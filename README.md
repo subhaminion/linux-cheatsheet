@@ -32,6 +32,7 @@
 * [Load Averages](docs/load-averages.md)
 * [top](docs/top.md)
 * [sar](docs/sar.md)
+* [free](docs/free.md)
 
 ## Solving problems
 
