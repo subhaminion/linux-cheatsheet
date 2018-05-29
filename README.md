@@ -31,6 +31,7 @@
 * [Process States](docs/process-states.md)
 * [Load Averages](docs/load-averages.md)
 * [top](docs/top.md)
+* [sar](docs/sar.md)
 
 ## Solving problems
 
