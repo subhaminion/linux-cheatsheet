@@ -70,6 +70,10 @@ Total:        489M       236M       253M
 
 This shows you how much memory you have in total (`RAM + Swap`) and how it's used.
 
+### Recommended reading:
+
+[Why (on Linux) am I seeing so much RAM usage?](http://www.chrisjohnston.org/ubuntu/why-on-linux-am-i-seeing-so-much-ram-usage)
+
 ### Resources used to create this document:
 
 * https://codeyarns.com/2016/06/15/free-command-in-linux/
