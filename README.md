@@ -33,6 +33,7 @@
 * [top](docs/top.md)
 * [sar](docs/sar.md)
 * [free](docs/free.md)
+* [yum](docs/yum.md)
 
 ## Solving problems
 
