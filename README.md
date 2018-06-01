@@ -53,6 +53,6 @@ Check out a [list of of awesome things](docs/awesome-things.md) to make your Lin
 
 There is a list of some of the [terms](docs/terms.md).
 
-## Useful resources
+## Recommended reading
 
-* Learn about advanced Bash one-liners [here](http://www.bashoneliners.com/)
+[Here](docs/recommended-reading.md) you can find a list of resources that you might find useful.
