@@ -34,6 +34,7 @@
 * [sar](docs/sar.md)
 * [free](docs/free.md)
 * [yum](docs/yum.md)
+* [dd](docs/dd.md)
 
 ## Solving problems
 
