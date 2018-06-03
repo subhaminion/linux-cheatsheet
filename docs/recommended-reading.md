@@ -13,6 +13,10 @@ Interesting notes on solving different problems when working with Linux. For exa
 
 ---
 
-**http://www.bashoneliners.com**
+Learn about [advanced Bash one-liners](http://www.bashoneliners.com)
 
-Learn about advanced Bash one-liners
+---
+
+[The Linux System Administrator's Guide](https://www.tldp.org/LDP/sag/html/index.html)
+
+A lot of the material in this cheatsheet was taken from this guide, so it's definitely worth to check out.
