@@ -47,14 +47,18 @@ Go to [explainshell.com](https://explainshell.com/). This will explain the comma
 
 You can use tools like [eg](https://github.com/srsudar/eg) which provide you with common examples of using different commands
 
-## Awesome things
-
-Check out a [list of of awesome things](docs/awesome-things.md) to make your Linux experience easier and more fun.
-
 ## List of terms
 
 There is a list of some of the [terms](docs/terms.md).
 
+## Awesome things
+
+Check out a [list of of awesome things](docs/awesome-things.md) to make your Linux experience easier and more fun.
+
 ## Recommended reading
 
-[Here](docs/recommended-reading.md) you can find a list of resources that you might find useful.
+[Here](docs/recommended-reading.md) you can find a list of resources that you might be interested in reading.
+
+## Recommended videos & youtube channels
+
+[Here](docs/videos.md) you can find a list of cool videos and youtube channels.
