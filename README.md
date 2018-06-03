@@ -35,6 +35,7 @@
 * [free](docs/free.md)
 * [yum](docs/yum.md)
 * [dd](docs/dd.md)
+* [Virtual memory](docs/virtual-memory.md)
 
 ## Solving problems
 
