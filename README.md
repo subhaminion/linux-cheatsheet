@@ -36,6 +36,7 @@
 * [yum](docs/yum.md)
 * [dd](docs/dd.md)
 * [Virtual memory](docs/virtual-memory.md)
+* [vmstat](docs/vmstat.md)
 
 ## Solving problems
 
