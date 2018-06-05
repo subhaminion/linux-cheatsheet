@@ -37,6 +37,7 @@
 * [dd](docs/dd.md)
 * [Virtual memory](docs/virtual-memory.md)
 * [vmstat](docs/vmstat.md)
+* [tcpdump](docs/tcpdump.md)
 
 ## Solving problems
 
