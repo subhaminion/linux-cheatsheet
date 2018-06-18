@@ -38,7 +38,7 @@
 * [Virtual memory](docs/virtual-memory.md)
 * [vmstat](docs/vmstat.md)
 * [tcpdump](docs/tcpdump.md)
-* [Networking models: TCP/IP & OSI](networking-models.md)
+* [Networking models: TCP/IP & OSI](docs/networking-models.md)
 
 ## Solving problems
 

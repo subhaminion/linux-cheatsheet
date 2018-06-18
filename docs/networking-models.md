@@ -174,3 +174,7 @@ Today, when you buy a new computer today, it implements the TCP/IP model to the 
 * https://www.safaribooksonline.com/library/view/Cisco+CCENT_CCNA+ICND1+100-101+Official+Cert+Guide/9780133497342/ch01.html#ch01
 * https://www.quora.com/Can-you-explain-OSI-layers-and-TCP-IP-in-laymans-terms
 * http://computernetworkingsimplified.in/data-link-layer/general-data-link-layer-frame-structure/
+* http://computing.dcu.ie/~humphrys/Notes/Networks/data.link.html
+* https://www.tutorialspoint.com/data_communication_computer_network/data_link_layer_introduction.htm
+* http://www.science.smith.edu/~jcardell/Courses/EGR328/Readings/KRch5Link.pdf
+* http://computernetworkingsimplified.in/data-link-layer/core-functionality-data-link-layer/
