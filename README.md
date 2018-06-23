@@ -39,6 +39,7 @@
 * [vmstat](docs/vmstat.md)
 * [tcpdump](docs/tcpdump.md)
 * [Networking models: TCP/IP & OSI](docs/networking-models.md)
+* [Sockets](docs/sockets.md)
 
 ## Solving problems
 
