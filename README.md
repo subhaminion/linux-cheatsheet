@@ -40,6 +40,7 @@
 * [tcpdump](docs/tcpdump.md)
 * [Networking models: TCP/IP & OSI](docs/networking-models.md)
 * [Sockets](docs/sockets.md)
+* [netstat](docs/netstat.md)
 
 ## Solving problems
 
