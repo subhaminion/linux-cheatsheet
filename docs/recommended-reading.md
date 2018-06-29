@@ -1,8 +1,6 @@
 ### Recommended reading
 
-**https://bash-prompt.net**
-
-Interesting notes on solving different problems when working with Linux. For example, you might find useful the following posts:
+A [great blog](https://bash-prompt.net) that has interesting notes on solving different problems when working with Linux. For example, you might find useful the following posts:
 
 * [The Pinky Finger Habits Of Experienced Sysadmins](https://bash-prompt.net/guides/habits-sysadmin/)
 * [Specialised Versus General Tools](https://bash-prompt.net/guides/specialized_v_general/)
@@ -13,6 +11,13 @@ Interesting notes on solving different problems when working with Linux. For exa
 ---
 
 [Ten Things I Wish I’d Known About bash](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
+
+---
+
+[Brendan Gregg](http://www.brendangregg.com/) (Netflix) is a true expert in monitoring, debugging and tunning of the systems. He has a great blog where he shares his knowledge. Some of the must-read posts:
+
+* [Linux Perfomance materials](http://www.brendangregg.com/linuxperf.html)
+* [The USE Method](http://www.brendangregg.com/usemethod.html)
 
 ---
 
