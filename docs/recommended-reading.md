@@ -27,4 +27,10 @@ A lot of the material in this cheatsheet was taken from this guide, so it's defi
 
 ---
 
+[Shell Style Guide](https://google.github.io/styleguide/shell.xml)
+
+A great style guide for Bash scripts from Google.
+
+---
+
 [Advanced Bash one-liners](http://www.bashoneliners.com)
