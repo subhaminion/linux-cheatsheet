@@ -41,6 +41,7 @@
 * [Networking models: TCP/IP & OSI](docs/networking-models.md)
 * [Sockets](docs/sockets.md)
 * [netstat](docs/netstat.md)
+* [DNS](docs/dns.md)
 
 ## Solving problems
 
