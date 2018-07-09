@@ -42,6 +42,7 @@
 * [Sockets](docs/sockets.md)
 * [netstat](docs/netstat.md)
 * [DNS](docs/dns.md)
+* [Linux DNS lookup](docs/dns-lookup-on-linux.md)
 
 ## Solving problems
 
