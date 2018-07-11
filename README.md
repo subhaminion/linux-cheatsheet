@@ -43,6 +43,7 @@
 * [netstat](docs/netstat.md)
 * [DNS](docs/dns.md)
 * [Linux DNS lookup](docs/dns-lookup-on-linux.md)
+* [host](docs/host.md)
 
 ## Solving problems
 
