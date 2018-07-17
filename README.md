@@ -45,6 +45,7 @@
 * [Linux DNS lookup](docs/dns-lookup-on-linux.md)
 * [host](docs/host.md)
 * [dig](docs/dig.md)
+* [wc](docs/wc.md)
 
 ## Solving problems
 
