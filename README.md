@@ -46,6 +46,7 @@
 * [host](docs/host.md)
 * [dig](docs/dig.md)
 * [wc](docs/wc.md)
+* [grep](docs/grep.md)
 
 ## Solving problems
 
