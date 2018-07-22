@@ -12,4 +12,8 @@
 
 * **Hash** is a short unique identifier for a much bigger set of data. Often used as mechanism to verify the integrity of the data as the result of the trasmission on the network.
 
-* A **nameserver** is a computer that answers questions about domain names, such as "what is the IP addresses of this domain name?". 
+* A **nameserver** is a computer that answers questions about domain names, such as "what is the IP addresses of this domain name?".
+
+* A **crash** is the situation in which a program, either a user application or a part of the operating system, stops performing its expected function(s) and responding to other parts of the system. The program might appear to the user to freeze.
+
+* An **assembly language** is a human-readable notation for the **machine language** that a specific type of processor (also called a central processing unit or CPU) uses. Machine language, also referred to as **machine code**, is a pattern of bits (i.e., zeros and ones) that is directly readable by a processor.
