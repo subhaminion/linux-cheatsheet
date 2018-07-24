@@ -47,6 +47,7 @@
 * [dig](docs/dig.md)
 * [wc](docs/wc.md)
 * [grep](docs/grep.md)
+* [kernel](docs/kernel.md)
 
 ## Solving problems
 
