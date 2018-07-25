@@ -49,6 +49,7 @@
 * [grep](docs/grep.md)
 * [kernel](docs/kernel.md)
 * [uname](docs/uname.md)
+* [Getting distribution info](docs/distro-info.md)
 
 ## Solving problems
 
