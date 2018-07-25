@@ -17,3 +17,7 @@
 * A **crash** is the situation in which a program, either a user application or a part of the operating system, stops performing its expected function(s) and responding to other parts of the system. The program might appear to the user to freeze.
 
 * An **assembly language** is a human-readable notation for the **machine language** that a specific type of processor (also called a central processing unit or CPU) uses. Machine language, also referred to as **machine code**, is a pattern of bits (i.e., zeros and ones) that is directly readable by a processor.
+
+* A **register** is a very small amount of high speed memory inside of the CPU.
+
+* An **interrupt** is a signal to the [kernel](kernel.md) (i.e., the core of the operating system) that an event has occurred, and it results in a change in the sequence of instructions that is executed by the CPU. In the case of a **hardware interrupt**, the signal originates from a hardware device such as a keyboard (i.e., when a user presses a key), mouse or system clock (a circuit that generates pulses at precise intervals that are used to coordinate the computer's activities). A [software interrupt](http://www.linfo.org/software_interrupt.html) is an interrupt that originates in software, and it is usually triggered by a program in user mode. For example, the standard procedure to change from user mode to kernel mode is to call the software [interrupt 0x80](http://www.linfo.org/int_0x80.html).
