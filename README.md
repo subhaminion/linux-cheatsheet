@@ -48,6 +48,7 @@
 * [wc](docs/wc.md)
 * [grep](docs/grep.md)
 * [kernel](docs/kernel.md)
+* [uname](docs/uname.md)
 
 ## Solving problems
 
