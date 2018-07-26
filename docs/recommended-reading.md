@@ -21,6 +21,10 @@ A [great blog](https://bash-prompt.net) that has interesting notes on solving di
 
 ---
 
+[Linux Journey](https://linuxjourney.com/) is a site dedicated to making learning Linux fun and easy.
+
+---
+
 [The Linux System Administrator's Guide](https://www.tldp.org/LDP/sag/html/index.html)
 
 A lot of the material in this cheatsheet was taken from this guide, so it's definitely worth to check out.
