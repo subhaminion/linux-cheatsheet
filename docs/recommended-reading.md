@@ -25,6 +25,10 @@ A [great blog](https://bash-prompt.net) that has interesting notes on solving di
 
 ---
 
+[Julia Evans](https://twitter.com/b0rk) has a [great blog](https://jvns.ca/) where you can find a lot of really interesting posts on various Linux topics.
+
+---
+
 [The Linux System Administrator's Guide](https://www.tldp.org/LDP/sag/html/index.html)
 
 A lot of the material in this cheatsheet was taken from this guide, so it's definitely worth to check out.
