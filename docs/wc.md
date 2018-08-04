@@ -27,19 +27,33 @@ $ wc -l /var/log/httpd/access_log
 6 /var/log/httpd/access_log
 ```
 
-Often times, I pipe output from [grep](grep.md) to `wc -l` command to see how many occurrences of the event happened. For example, the following command will count the number of times the apache server responded with `404` response code:
+A few practical examples.
 
-```bash
-$ grep ' 404 ' /var/log/httpd/access_log | wc -l
-2
-```
+1. To count the number of records (or rows) in several CSV files the `wc` can be used in conjunction with pipes. In the following example there are five CSV files. The requirement is to find out the sum of records in all five files. This can be achieved by piping the output of the cat command to wc.
 
-or this command will count the number of time the index page (`/`) was requested:
+    ```bash
+    $ cat *.csv | wc -l
+    1866
+    ```
 
-```bash
-$ grep ' / ' /var/log/httpd/access_log | wc -l
-4
-```
+2. To count the number of folders and files in a directory wc can be combined with the ls command. By passing the -1 options to ls it will each folder or line on a new line. This can be piped to wc to give a count:
+
+    ```bash
+    $ ls -l
+    total 0
+    drwxrwxr-x. 2 vagrant vagrant 22 Aug  4 05:16 dir1
+    -rw-rw-r--. 1 vagrant vagrant  0 Aug  4 05:16 file1.txt
+    -rw-rw-r--. 1 vagrant vagrant  0 Aug  4 05:16 file2.txt
+    $ ls -1 | wc -l
+    3
+    ```
+
+3. To cound the number of currently logged in users, you can pipe the output of a [who](who.md) command to the `wc`:
+
+    ```bash
+    $ who | wc -l
+    1
+    ```
 
 #### Count the number of words
 
@@ -70,3 +84,5 @@ $ wc -m file1.txt file2.txt
 ### Resources used to create this document:
 
 * man wc
+* https://shapeshed.com/unix-wc/
+* https://alvinalexander.com/unix/edu/examples/wc.shtml
