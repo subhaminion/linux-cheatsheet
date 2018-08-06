@@ -51,6 +51,7 @@
 * [uname](docs/uname.md)
 * [Getting distribution info](docs/distro-info.md)
 * [Linux boot process](docs/boot-process.md)
+* [Init system: System V & Upstart](docs/init.md)
 
 ## Solving problems
 
