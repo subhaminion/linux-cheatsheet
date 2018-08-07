@@ -52,6 +52,7 @@
 * [Getting distribution info](docs/distro-info.md)
 * [Linux boot process](docs/boot-process.md)
 * [Init system: System V & Upstart](docs/init.md)
+* [cut](docs/cut.md)
 
 ## Solving problems
 
