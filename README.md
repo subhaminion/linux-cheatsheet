@@ -53,6 +53,7 @@
 * [Linux boot process](docs/boot-process.md)
 * [Init system: System V & Upstart](docs/init.md)
 * [cut](docs/cut.md)
+* [Globbing](docs/globbing.md)
 
 ## Solving problems
 
