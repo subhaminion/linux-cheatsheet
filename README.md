@@ -54,6 +54,7 @@
 * [Init system: System V & Upstart](docs/init.md)
 * [cut](docs/cut.md)
 * [Globbing](docs/globbing.md)
+* [tee](docs/tee.md)
 
 ## Solving problems
 
