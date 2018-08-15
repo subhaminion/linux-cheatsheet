@@ -55,6 +55,7 @@
 * [cut](docs/cut.md)
 * [Globbing](docs/globbing.md)
 * [tee](docs/tee.md)
+* [systemd](docs/systemd.md)
 
 ## Solving problems
 
