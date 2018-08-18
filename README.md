@@ -56,6 +56,7 @@
 * [Globbing](docs/globbing.md)
 * [tee](docs/tee.md)
 * [systemd](docs/systemd.md)
+* [systemctl](docs/systemctl.md)
 
 ## Solving problems
 
