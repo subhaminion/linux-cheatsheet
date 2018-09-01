@@ -58,6 +58,7 @@
 * [systemd](docs/systemd.md)
 * [systemctl](docs/systemctl.md)
 * [Linux Firewall: Netfilter/Iptables](docs/netfilter-iptables.md)
+* [rsync](docs/rsync.md)
 
 ## Solving problems
 
