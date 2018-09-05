@@ -23,7 +23,7 @@ $ du -h # list sizes of directories in the current directory
 49M
 ```
 
-Note that both command `find` and `du` also list the current working directory itself indicated by dot `.`.
+Note that both command `find` and `du` aaslso list the current working directory itself indicated by dot `.`.
 
 ---
 
@@ -60,6 +60,55 @@ $ du -h ./test-dir/
 25M	./test-dir/subdir1/subdir2
 25M	./test-dir/subdir1
 49M	./test-dir/
+```
+
+### Don't display content from other filesystems
+
+By default the `du` command will search recursively either from where specified or otherwise from within the current working directory. If we have other files systems mounted, such as an NFS share mounted to `/mnt`, we may not want to go and look through these other file systems which may be from different disks or partitions. This is where the **-x** option comes in, it will ignore all other file systems that it may find.
+
+For example, the following command will find the top disk usage by the top level directories:
+
+```bash
+$ du -h -d 1 / | sort -h
+du: cannot access ‘/proc/5092/task/5092/fd/3’: No such file or directory
+du: cannot access ‘/proc/5092/task/5092/fdinfo/3’: No such file or directory
+du: cannot access ‘/proc/5092/fd/4’: No such file or directory
+du: cannot access ‘/proc/5092/fdinfo/4’: No such file or directory
+0	/dev
+0	/media
+0	/mnt
+0	/opt
+0	/proc
+0	/srv
+0	/sys
+4.3M	/vagrant
+4.5M	/run
+8.6M	/home
+34M	/etc
+182M	/boot
+300M	/var
+786M	/usr
+1.1G	/root
+1.1G	/tmp
+3.4G	/
+```
+
+As you can see, it generates errors when trying to access `/proc` directory. To exclude `/proc`, `/boot` and other directories that belong to a filesystem different than the root (`/`) directory under which we run the command, we can use the `-x` option:
+
+```bash
+$ du -xh -d 1 / | sort -h
+0	/media
+0	/mnt
+0	/opt
+0	/srv
+4.3M	/vagrant
+8.6M	/home
+34M	/etc
+300M	/var
+786M	/usr
+1.1G	/root
+1.1G	/tmp
+3.2G	/
 ```
 
 ### Get total size of a directory
@@ -123,82 +172,19 @@ $ du -ha --time ./test-dir/
 49M	2018-03-28 07:16	./test-dir/
 ```
 
-### Star wildcard
-
-Using the star **star wildcard** (which matches any characters) in directory path we can achieve a result similar to the `-a` option:
-
-```bash
-$ du -h ./test-dir # lists all subdirectories
-25M	./test-dir/subdir1/subdir2
-25M	./test-dir/subdir1
-49M	./test-dir
-$ du -ha ./test-dir # lists all files and subdirectories
-24M	./test-dir/file2.txt
-4.0K	./test-dir/.test
-4.0K	./test-dir/file1.txt
-24M	./test-dir/subdir1/subdir2/blob.txt
-25M	./test-dir/subdir1/subdir2
-25M	./test-dir/subdir1
-49M	./test-dir
-$ du -h  ./test-dir/* # lists subdirectories and files in the current directory only
-4.0K	./test-dir/file1.txt
-24M	./test-dir/file2.txt
-25M	./test-dir/subdir1/subdir2
-25M	./test-dir/subdir1
-```
-
-Note, the only files listed are those in the the parent directory, not those in its subdirectories. This also doesn't list subdirectories that start with a dot `.` and no total for the directory tree is provided as a whole.
-
----
-
-The wildcard can also be used to filter the output to list only those items whose names begin with, contain or end with certain characters. For example, the following would report the names and sizes of all of the directories and files in the `test-dir` directory whose names begin with the word `file`:
-
-```bash
-$ du -h ./test-dir/file*
-4.0K	./test-dir/file1.txt
-24M	./test-dir/file2.txt
-```
-
-To provide total size for the files and directories use the **-c**  option:
-
-```bash
-$ du -hc ./test-dir/file*
-4.0K	./test-dir/file1.txt
-24M	./test-dir/file2.txt
-25M	total
-```
-
----
-
-As another example of the use of the wildcard, the following command would report the name and size of each `.txt`  file in the current directory as well as a total for all of the `.txt` files:
-
-```bash
-$ du -hc ./test-dir/*.txt
-4.0K	./test-dir/file1.txt
-24M	./test-dir/file2.txt
-25M	total
-```
-
-
 ### Filtering the output
 
-Sort output items by size by piping the output to the `sort` command:
+Sort output items by size by piping the output to the [sort](sort.md) command.
+
+The following command will find the top 5 directories that take up the most of the disk space:
 
 ```bash
-$ du -h
-25M	./test-dir/subdir1/subdir2
-25M	./test-dir/subdir1
-49M	./test-dir
-8.0K	./.ssh
-4.0K	./.cache
-49M	.
-$ du -h | sort -n
-4.0K	./.cache
-8.0K	./.ssh
-25M	./test-dir/subdir1
-25M	./test-dir/subdir1/subdir2
-49M	.
-49M	./test-dir
+$ du -xh -d 1 / | sort -hr | head -5
+3.2G	/
+1.1G	/tmp
+1.1G	/root
+786M	/usr
+298M	/var
 ```
 
 ---
@@ -209,19 +195,9 @@ As `du` will often generate more output than can fit on the monitor screen at on
 $ du -h | less
 ```
 
----
-
-The grep filter can be used to search through du's output for any desired string. For example, the following will provide a list of the names and sizes of directories and files in the current directory that contain the word `file`:
-```
-$ du -ah | grep file
-24M	./test-dir/file2.txt
-4.0K	./test-dir/file1.txt
-4.0K	./.profile
-```
 
 ### Resources used to create this document:
 
 * https://www.rootusers.com/13-du-disk-usage-command-examples-in-linux/
 * https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/
 * http://www.linfo.org/du.html
-
