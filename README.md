@@ -60,6 +60,7 @@
 * [Linux Firewall: Netfilter/Iptables](docs/netfilter-iptables.md)
 * [rsync](docs/rsync.md)
 * [sort](docs/sort.md)
+* [User passwords: /etc/passwd & shadow suite](docs/user-passwords.md)
 
 ## Solving problems
 
