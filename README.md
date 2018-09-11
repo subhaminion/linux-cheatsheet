@@ -61,6 +61,7 @@
 * [rsync](docs/rsync.md)
 * [sort](docs/sort.md)
 * [User passwords: /etc/passwd & shadow suite](docs/user-passwords.md)
+* [passwd](docs/passwd.md)
 
 ## Solving problems
 
