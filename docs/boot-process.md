@@ -31,7 +31,7 @@ Note: Nowadays, **UEFI** (Unified Extensible Firmware Interface) is used in plac
 
 ### 2 MBR
 
-The BIOS doesn't seach the whole storage device to determine whether it has an OS or not, instead it looks at the first [sector](https://en.wikipedia.org/wiki/Disk_sector) of the device.
+The BIOS doesn't search the whole storage device to determine whether it has an OS or not, instead it looks at the first [sector](https://en.wikipedia.org/wiki/Disk_sector) of the device.
 
 The first sector of any bootable device is known as the Master Boot Record (**MBR**).
 
